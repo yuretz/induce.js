@@ -1,0 +1,18 @@
+{
+  "presets": [
+    [
+      "es2015",
+      {
+        "modules": false
+      }
+    ]
+  ],
+  "plugins": [
+    "external-helpers",
+    ["transform-regenerator", {
+        "asyncGenerators": false, // true by default
+        "generators": true, // true by default
+        "async": false // true by default
+    }]
+  ]
+}

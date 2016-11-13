@@ -1,0 +1,41 @@
+{
+  "name": "induce.js",
+  "version": "0.0.1",
+  "description": "FRP experiment",
+  "main": "src/induce.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "url": "git+https://github.com/yuretz/induce.js.git",
+    "type": "git"
+  },
+  "keywords": [
+    "FRP",
+    "reactive",
+    "signal",
+    "effect",
+    "action",
+    "reaction"
+  ],
+  "author": "Yuriy Korolyov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuretz/induce.js/issues"
+  },
+  "homepage": "https://github.com/yuretz/induce.js#readme",
+  "devDependencies": {
+    "babel-plugin-transform-regenerator": "^6.16.1",
+    "babel-preset-es2015-rollup": "^1.2.0",
+    "eslint": "3.9.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "2.1.0",
+    "eslint-plugin-jsx-a11y": "2.2.3",
+    "eslint-plugin-react": "6.6.0",
+    "rollup": "^0.36.3",
+    "rollup-plugin-babel": "^2.6.1",
+    "rollup-plugin-commonjs": "^5.0.5",
+    "rollup-plugin-json": "^2.0.2",
+    "rollup-plugin-node-resolve": "^2.0.0"
+  }
+}
